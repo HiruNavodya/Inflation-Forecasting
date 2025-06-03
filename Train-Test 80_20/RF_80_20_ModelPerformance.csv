@@ -1,0 +1,26 @@
+Lag Terms,Model Type,Test RMSE,Test MSE,Test MAE,Test MAPE,Test R^2,Best Parameters
+1,Without Optuna,14.21275069,202.0022823,7.606563328,69.58473525,0.564505734,N/A
+1,With Optuna,14.52157531,210.8761496,7.754740077,71.67031781,0.545374671,"{'n_estimators': 300, 'max_depth': 5, 'min_samples_split': 4, 'min_samples_leaf': 3}"
+2,Without Optuna,14.45547401,208.9607289,7.782782674,72.82628398,0.549504103,N/A
+2,With Optuna,15.0700921,227.107676,8.069335988,73.12780751,0.510381321,"{'n_estimators': 50, 'max_depth': 50, 'min_samples_split': 9, 'min_samples_leaf': 3}"
+3,Without Optuna,14.83508544,220.0797599,7.960699046,75.50708999,0.52553272,N/A
+3,With Optuna,14.63363514,214.1432773,7.884381556,74.39350371,0.53833111,"{'n_estimators': 50, 'max_depth': 15, 'min_samples_split': 5, 'min_samples_leaf': 2}"
+4,Without Optuna,14.90536658,222.169953,8.066167572,77.09278749,0.521026498,N/A
+4,With Optuna,15.16307963,229.9189839,8.155539571,74.30035335,0.504320456,"{'n_estimators': 200, 'max_depth': 35, 'min_samples_split': 9, 'min_samples_leaf': 3}"
+5,Without Optuna,14.9887061,224.6613106,8.071677826,75.11831092,0.51565541,N/A
+5,With Optuna,15.20175871,231.0934678,8.152442532,74.54010022,0.501788401,"{'n_estimators': 300, 'max_depth': 20, 'min_samples_split': 9, 'min_samples_leaf': 4}"
+6,Without Optuna,14.88191824,221.4714905,8.142975146,78.78207918,0.528361147,N/A
+6,With Optuna,14.93701573,223.1144389,8.156768907,78.54341282,0.524862375,"{'n_estimators': 150, 'max_depth': 30, 'min_samples_split': 6, 'min_samples_leaf': 1}"
+7,Without Optuna,14.94097283,223.2326691,8.176011116,79.42048867,0.524610596,N/A
+7,With Optuna,14.87120623,221.1527749,8.127872985,79.07597397,0.529039874,"{'n_estimators': 300, 'max_depth': 20, 'min_samples_split': 2, 'min_samples_leaf': 1}"
+8,Without Optuna,14.93852399,223.159499,8.165878804,78.63736024,0.524766416,N/A
+8,With Optuna,14.69256963,215.8716022,8.018034553,77.35440668,0.540286496,"{'n_estimators': 50, 'max_depth': 50, 'min_samples_split': 3, 'min_samples_leaf': 2}"
+9,Without Optuna,14.82663788,219.8291909,8.088048682,77.75475211,0.531858538,N/A
+9,With Optuna,14.81321528,219.431347,8.072226598,77.2266354,0.532705774,"{'n_estimators': 200, 'max_depth': 50, 'min_samples_split': 3, 'min_samples_leaf': 1}"
+10,Without Optuna,14.85039023,220.53409,8.09382655,76.76384225,0.530357406,N/A
+10,With Optuna,14.69675831,215.9947047,8.009850677,77.46611455,0.540024341,"{'n_estimators': 50, 'max_depth': 5, 'min_samples_split': 4, 'min_samples_leaf': 2}"
+11,Without Optuna,14.93004318,222.9061894,8.180110939,77.75571467,0.531245894,N/A
+11,With Optuna,14.91740049,222.5288375,8.180901403,78.90882929,0.532039435,"{'n_estimators': 200, 'max_depth': 30, 'min_samples_split': 3, 'min_samples_leaf': 1}"
+12,Without Optuna,14.8100147,219.3365354,8.122740618,78.26594048,0.538752594,N/A
+12,With Optuna,14.85181042,220.5762727,8.175207381,80.04243355,0.536145525,"{'n_estimators': 100, 'max_depth': 5, 'min_samples_split': 4, 'min_samples_leaf': 1}"
+,,14.21275069,202.0022823,7.606563328,69.58473525,0.564505734,

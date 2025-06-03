@@ -1,0 +1,28 @@
+Lag Terms,Model Type,Test RMSE,Test MSE,Test MAE,Test MAPE,Test R2,Best Params
+1,Without Optuna,14.10559072,198.9676894,7.669324775,72.64950509,0.571047976,N/A
+1,With Optuna,14.9454308,223.3659019,8.014768589,73.90784367,0.518448166,"{'n_estimators': 100, 'max_depth': 5, 'learning_rate': 0.060000000000000005, 'min_child_weight': 8, 'subsample': 0.8, 'colsample_bytree': 0.6}"
+2,Without Optuna,14.73955188,217.2543896,7.881921232,67.69461278,0.531623901,N/A
+2,With Optuna,14.83939152,220.2075407,7.950461522,66.54271548,0.525257239,"{'n_estimators': 50, 'max_depth': 5, 'learning_rate': 0.26, 'min_child_weight': 8, 'subsample': 0.9, 'colsample_bytree': 1.0}"
+3,Without Optuna,15.01838693,225.5519461,8.190593028,77.20099099,0.5137353,N/A
+3,With Optuna,15.28748406,233.7071689,8.158881575,71.19362759,0.496153554,"{'n_estimators': 250, 'max_depth': 3, 'learning_rate': 0.060000000000000005, 'min_child_weight': 10, 'subsample': 0.9, 'colsample_bytree': 1.0}"
+4,Without Optuna,15.95799949,254.6577477,8.643261264,80.12053149,0.450986456,N/A
+4,With Optuna,15.44648386,238.5938637,8.385084839,77.08798547,0.485618388,"{'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.16000000000000003, 'min_child_weight': 9, 'subsample': 0.7, 'colsample_bytree': 0.9}"
+5,Without Optuna,15.89856914,252.7645006,8.651088443,82.01149416,0.455068084,N/A
+5,With Optuna,15.41934102,237.7560774,8.262023868,74.61448084,0.487424562,"{'n_estimators': 150, 'max_depth': 3, 'learning_rate': 0.060000000000000005, 'min_child_weight': 10, 'subsample': 0.8, 'colsample_bytree': 1.0}"
+6,Without Optuna,16.47776968,271.5168935,9.066649124,87.57485396,0.421786001,N/A
+6,With Optuna,14.97309854,224.19368,8.427451227,88.61741567,0.522564056,"{'n_estimators': 250, 'max_depth': 9, 'learning_rate': 0.26, 'min_child_weight': 3, 'subsample': 0.6, 'colsample_bytree': 0.7}"
+7,Without Optuna,16.11424192,259.6687926,8.888266986,86.52994028,0.447017351,N/A
+7,With Optuna,16.38273769,268.3940944,9.041416362,89.59152796,0.428436218,"{'n_estimators': 300, 'max_depth': 11, 'learning_rate': 0.16000000000000003, 'min_child_weight': 1, 'subsample': 0.9, 'colsample_bytree': 1.0}"
+8,Without Optuna,16.29412654,265.4985595,9.007980596,88.96996961,0.434602459,N/A
+8,With Optuna,14.99139416,224.7418988,8.40290897,83.49209778,0.521396587,"{'n_estimators': 250, 'max_depth': 3, 'learning_rate': 0.11, 'min_child_weight': 4, 'subsample': 0.6, 'colsample_bytree': 0.9}"
+9,Without Optuna,16.14772641,260.7490681,8.807621788,87.40839435,0.44471683,N/A
+9,With Optuna,16.69212926,278.6271793,9.153872762,91.53392977,0.406644156,"{'n_estimators': 150, 'max_depth': 7, 'learning_rate': 0.060000000000000005, 'min_child_weight': 1, 'subsample': 0.9, 'colsample_bytree': 1.0}"
+10,Without Optuna,16.21576275,262.9509615,8.851411834,86.57079848,0.440027745,N/A
+10,With Optuna,15.0029783,225.0893578,8.275712133,82.30040018,0.520656648,"{'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.11, 'min_child_weight': 3, 'subsample': 0.5, 'colsample_bytree': 0.8}"
+11,Without Optuna,16.31492749,266.1768591,8.98544342,90.37756345,0.440251094,N/A
+11,With Optuna,15.4428166,238.4805844,8.467189353,79.62573274,0.498494172,"{'n_estimators': 300, 'max_depth': 13, 'learning_rate': 0.11, 'min_child_weight': 7, 'subsample': 0.9, 'colsample_bytree': 1.0}"
+12,Without Optuna,16.26304102,264.4865031,8.952178964,88.18778646,0.443805779,N/A
+12,With Optuna,16.41630784,269.4951631,8.994805051,89.28225345,0.433272963,"{'n_estimators': 250, 'max_depth': 15, 'learning_rate': 0.26, 'min_child_weight': 1, 'subsample': 1.0, 'colsample_bytree': 1.0}"
+,,,,,,,
+,,,,,,,
+,,14.10559072,198.9676894,7.669324775,66.54271548,0.571047976,

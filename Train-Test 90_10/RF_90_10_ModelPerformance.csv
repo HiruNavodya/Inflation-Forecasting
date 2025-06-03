@@ -1,0 +1,24 @@
+Lag Terms,Model Type,Test RMSE,Test MSE,Test MAE,Test MAPE,Test R^2,Best Parameters
+1,Without Optuna,7.608220587,57.8850205,5.0569099,127.2534021,0.900566009,N/A
+1,With Optuna,7.779244158,60.51663967,5.033796529,118.538886,0.896045454,"{'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 2}"
+2,Without Optuna,8.99168631,80.8504227,5.640520938,122.214934,0.861116397,N/A
+2,With Optuna,8.438313539,71.20513538,5.383415677,117.7803639,0.877684922,"{'n_estimators': 150, 'max_depth': 40, 'min_samples_split': 3, 'min_samples_leaf': 3}"
+3,Without Optuna,10.55683554,111.4467767,6.511521504,133.503241,0.778332753,N/A
+3,With Optuna,8.285240411,68.64520867,5.106353708,119.9759282,0.863464921,"{'n_estimators': 100, 'max_depth': 5, 'min_samples_split': 3, 'min_samples_leaf': 3}"
+4,Without Optuna,10.84066508,117.5200193,6.669753833,132.6369725,0.766253095,N/A
+4,With Optuna,9.806542272,96.16827133,5.91237071,129.6866008,0.808721647,"{'n_estimators': 250, 'max_depth': 25, 'min_samples_split': 4, 'min_samples_leaf': 2}"
+5,Without Optuna,11.22256434,125.9459504,6.929980509,134.062988,0.749493948,N/A
+5,With Optuna,9.114433255,83.07289356,5.557940518,129.2212318,0.834768307,"{'n_estimators': 100, 'max_depth': 30, 'min_samples_split': 5, 'min_samples_leaf': 2}"
+6,Without Optuna,11.57545511,133.9911609,7.096599128,135.1308169,0.733492052,N/A
+6,With Optuna,11.10958932,123.422975,6.805729966,133.2861825,0.754512137,"{'n_estimators': 250, 'max_depth': 15, 'min_samples_split': 2, 'min_samples_leaf': 1}"
+7,Without Optuna,10.9242621,119.3395025,6.775284352,134.3163451,0.762634149,N/A
+7,With Optuna,11.0560082,122.2353173,6.829396774,135.364013,0.756874384,"{'n_estimators': 300, 'max_depth': 35, 'min_samples_split': 2, 'min_samples_leaf': 1}"
+8,Without Optuna,10.69285892,114.337232,6.642945885,136.4095772,0.772583648,N/A
+8,With Optuna,10.05487022,101.1004151,6.255380612,134.01181,0.79891163,"{'n_estimators': 250, 'max_depth': 15, 'min_samples_split': 3, 'min_samples_leaf': 1}"
+9,Without Optuna,10.24351806,104.9296622,6.284669627,127.6590416,0.791295271,N/A
+9,With Optuna,10.62508986,112.8925346,6.50483869,130.4997782,0.775457146,"{'n_estimators': 300, 'max_depth': 35, 'min_samples_split': 2, 'min_samples_leaf': 1}"
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,7.608220587,57.8850205,5.033796529,117.7803639,0.900566009,
